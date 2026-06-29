@@ -34,17 +34,6 @@ Pokémon card & sealed product portfolio tracker with live TCG prices, price his
 - **Database**: Supabase (Postgres)
 - **Prices**: PokémonPriceTracker API v2 with eBay graded sales data
 
-## Deployment
-
-1. Push to a GitHub repo
-2. Import into Vercel
-3. Set environment variables in Vercel dashboard:
-   - `POKEPRICE_API_KEY` — PokémonPriceTracker API bearer token
-   - `SUPABASE_URL` — your Supabase project URL
-   - `SUPABASE_SERVICE_KEY` — Supabase service_role key
-   - `SUPABASE_ANON_KEY` — Supabase anon/public key
-4. Deploy
-
 ## Supabase schema
 
 Run `supabase_schema_v26.sql` against your Supabase project. No schema changes from v26.
